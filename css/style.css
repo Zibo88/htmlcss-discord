@@ -23,12 +23,12 @@ img {
 }
 
 .btn-small {
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 50px;
 }
 
 .btn-large {
-    padding: 9px;
+    padding: 10px 13px;
     border-radius: 70px;
     font-size: 15px;
 }
@@ -254,8 +254,6 @@ li {
 
 footer {
     background-color: black;
-
-    /* test */
     height: 500px;
 }
 
@@ -272,9 +270,10 @@ footer {
     margin: 25px 0;
     width: 60%;
     height: 350px;
-    /* background-color: white;  */
-
 }
+
+
+/* colonna larga */
 
 .col-footer-large {
     width: 35%;
@@ -282,12 +281,6 @@ footer {
     color: #4663af;
     font-size: 21px;
     padding: 10px;
-
-
-    /* test */
-
-    /* background-color: #ef8080;
-    border: 1px dotted black; */
 }
 
 .col-footer-large img{
@@ -297,15 +290,11 @@ footer {
 .col-footer-large h2{
     padding-bottom: 10px;
 }
-    
-
-
 .language, .chevron-down{
     font-size: 11px;
     color: white;
     padding-bottom: 10px;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
 .social {
@@ -317,17 +306,32 @@ footer {
     padding: 0px 5px;
 }
 
+/* colonne small */
+
 .col-footer-small {
     width: calc(65% / 4);
     height: 100%;
 
-    /* test */
-    background-color: #20b1a9;
-    border: 1px dotted black;
+
 }
 
+ul h3 {
+    color: #4663af;
+    font-size: 12px;
+
+}
+
+.footer-item-list {
+    color:white;
+    font-size: 10px;
+}
+
+
 hr {
-    color: #d3d3d3;
+    background-color: lightgray;
+    width: 70%;
+    margin: auto;
+    
 }
 
 /* ----bottom footer---- */
@@ -339,8 +343,6 @@ hr {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
-    /* test */
     width: 100%;
     height: 100px;
 
@@ -351,19 +353,26 @@ hr {
 
 .footer-bottom-container {
     width: 70%;
+    height: 30%;  
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 40px;
    
-
-    /* test */
-    background-color: #7fffd3;
-    height: 30%;  
 }
 
 /* test */
-#logo-footer, .bottone-footer {
-    background-color: #ffb6c0;
+#logo-footer{
+    width: 10%;
+    padding: 10px;
+}
+
+
+.bottone-footer.btn-small  {
+    background-color: #7288da;
+    color: white;
+
+    
 }
 
 
