@@ -238,8 +238,9 @@ li {
      width: 100%;
 }
 
-.starts {
-    display: flex;
+.stars {
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat; 
 }
 
 .violet-btn {
@@ -249,6 +250,7 @@ li {
 .bottom-square-container {
     text-align: center;
     padding-bottom: 25px;
+    
 }
 
 .bottom-square-container a {
