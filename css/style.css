@@ -185,6 +185,7 @@ li {
     
 }
 
+/* ------Main----- */
 .col-large {
     width: 70%;
 
@@ -194,8 +195,10 @@ li {
 
 .col-large img {
     margin-left: 90px;
-    width: 78%;
+    width: 76%;
 }
+
+
 
 .col-small {
     width: 30%;
@@ -207,15 +210,15 @@ li {
 }
 
 .col-small h2 {
-    font-size: 36px;
+    font-size: 35px;
 }
 
-.col-small p {
-    font-size: 13px;
-    padding-top: 10px;
+.col-small p{
+    font-size: 14px;
+    padding-top: 18px;
 }
 
-/* ------main------ */
+
 
 .square {
     width: 60%;
