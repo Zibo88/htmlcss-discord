@@ -33,6 +33,10 @@ img {
     font-size: 15px;
 }
 
+i {
+    padding: 5px;
+}
+
 /* ----- HEADER ------- */
 
 header {
@@ -43,13 +47,13 @@ header {
 
 .header-top-container {
 
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    /* background-color: #255ee9; */
+    
 }
 
 
@@ -149,25 +153,24 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 
 }
 
 
 .section1 {
-    height: 400px;
+    height: 500px;
     background-color: white;
 }
 
 .section2 {
-    height: 400px;
-    /* to remove */
-    /* background-color: #d3d3d3; */
+    height: 500px;
+    
 }
 
 .section3 {
-    height: 800px;
-    /* to remove */
-    /* background-color: #d3d3d3; */
+    height: 1000px;
+    
 }
 
 
@@ -186,15 +189,15 @@ li {
 }
 
 .col-large img {
-    margin-left: 90px;
-    width: 86%;
+    padding-bottom: 20px;
+    
 }
 
 
 
 .col-small {
     width: 30%;
-    padding-top: 20px;
+    padding-top: 40px;
     
 }
 
@@ -222,7 +225,7 @@ li {
 
 .square p {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     padding: 5px 80px;
 
 }
@@ -236,13 +239,20 @@ li {
     background-repeat: no-repeat; 
 }
 
+.stars h2{
+    text-align: center;
+    padding: 45px 0;
+    font-size: 20px;
+
+}
+
 .violet-btn {
    background-color: #7288da;
 }
 
 .bottom-square-container {
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 15%;
     
 }
 
@@ -344,7 +354,7 @@ hr {
     align-items: flex-end;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 70px;
 
 
     
@@ -361,7 +371,7 @@ hr {
    
 }
 
-/* test */
+
 #logo-footer{
     width: 10%;
     padding: 10px;
