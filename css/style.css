@@ -263,7 +263,7 @@ li {
 
 footer {
     background-color: black;
-    height: 500px;
+    height: 400px;
 }
 
 .section-top-footer{
@@ -278,7 +278,7 @@ footer {
     display: flex;
     margin: 25px 0;
     width: 60%;
-    height: 350px;
+    height: 200px;
 }
 
 
