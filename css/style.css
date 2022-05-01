@@ -80,9 +80,11 @@ nav {
     width: 60%;
 }
 
-.login, .btn-small {
+.login, .btn-small a {
     background-color: white;
     text-align: right;
+    text-decoration: none;
+    
    
 }
 
