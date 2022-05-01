@@ -263,7 +263,7 @@ li {
 
 footer {
     background-color: black;
-    height: 400px;
+    height: 350px;
 }
 
 .section-top-footer{
@@ -351,8 +351,6 @@ hr {
 
 .section-bottom-footer {
     background-color: black;
-    margin-top: 1px;
-    margin-bottom: 1px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -366,7 +364,7 @@ hr {
 
 .footer-bottom-container {
     width: 70%;
-    height: 30%;  
+    height: 10%;  
     display: flex;
     justify-content: space-between;
     align-items: center;
