@@ -83,9 +83,7 @@ nav {
 .login, .btn-small a {
     background-color: white;
     text-align: right;
-    text-decoration: none;
-    
-   
+    text-decoration: none;  
 }
 
 
@@ -183,6 +181,11 @@ li {
     
 }
 
+.section-content.odd {
+    padding-right: 27px;
+}
+
+
 /* ------Main----- */
 .col-large {
     width: 70%;
@@ -208,7 +211,7 @@ li {
 }
 
 .col-small p{
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 18px;
 }
 
