@@ -321,18 +321,22 @@ footer {
     width: calc(65% / 4);
     height: 100%;
 
+}
 
+.col-footer-small li {
+    padding: 7px;
 }
 
 ul h3 {
     color: #4663af;
     font-size: 12px;
-
 }
 
-.footer-item-list {
+.footer-item-list a {
     color:white;
     font-size: 10px;
+    text-decoration: none;
+
 }
 
 
