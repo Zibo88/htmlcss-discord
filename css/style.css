@@ -237,6 +237,8 @@ li {
     background-image: url('../img/stars.svg');
     background-repeat: no-repeat; 
     background-size: contain;
+    width: 80%;
+    margin: auto;
 }
 
 .stars h2{
