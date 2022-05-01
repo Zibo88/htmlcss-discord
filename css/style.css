@@ -154,7 +154,6 @@ li {
     justify-content: center;
     align-items: center;
     padding: 30px 0;
-
 }
 
 
@@ -164,21 +163,18 @@ li {
 }
 
 .section2 {
-    height: 500px;
-    
+    height: 500px;   
 }
 
 .section3 {
-    height: 1000px;
-    
+    height: 1000px;    
 }
 
 
 
 .section-content {
     width: 60%;
-    display: flex;
-    
+    display: flex;    
 }
 
 .section-content.odd {
@@ -188,9 +184,7 @@ li {
 
 /* ------Main----- */
 .col-large {
-    width: 70%;
-
-   
+    width: 70%;   
 }
 
 .col-large img {
